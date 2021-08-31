@@ -1,0 +1,36 @@
+body{
+    background-color:darkblue;
+    margin: 0 auto;
+}
+.App-header{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: fill;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    background-color: transparent;
+   
+}
+.card{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: cadetblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+.card:hover{
+    background-color: teal;
+    font-weight: bold;
+}
+.card>span{
+    flex-direction: column;
+    justify-content: flex-end;
+}
